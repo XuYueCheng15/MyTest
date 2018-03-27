@@ -1,0 +1,1145 @@
+{\rtf1\ansi\ansicpg936\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fnil\fcharset0 Menlo-Bold;\f1\fnil\fcharset134 PingFangSC-Regular;\f2\fnil\fcharset0 Menlo-Regular;
+\f3\fnil\fcharset0 HelveticaNeue;\f4\fnil\fcharset0 HelveticaNeue-Light;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green116\blue0;\red92\green38\blue153;
+\red196\green26\blue22;\red14\green14\blue255;\red170\green13\blue145;\red46\green13\blue110;\red28\green0\blue207;
+\red63\green110\blue116;\red38\green71\blue75;\red255\green255\blue255;\red0\green0\blue0;\red100\green56\blue32;
+\red0\green0\blue255;\red255\green0\blue0;\red231\green0\blue20;\red255\green244\blue239;\red38\green38\blue38;
+\red255\green255\blue255;\red59\green59\blue59;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;\csgenericrgb\c0\c45600\c0;\csgenericrgb\c35900\c14900\c60100;
+\csgenericrgb\c77000\c10200\c8600;\csgenericrgb\c5500\c5500\c100000;\csgenericrgb\c66500\c5200\c56900;\csgenericrgb\c18100\c5200\c43100;\csgenericrgb\c11000\c0\c81000;
+\csgenericrgb\c24700\c43100\c45600;\csgenericrgb\c14900\c27800\c29400;\csgray\c100000;\csgray\c0;\csgenericrgb\c39100\c22000\c12500;
+\csgenericrgb\c0\c0\c100000;\csgenericrgb\c100000\c0\c0;\cssrgb\c93333\c12941\c9020;\cssrgb\c100000\c96471\c94902;\cssrgb\c20000\c20000\c20000;
+\cssrgb\c100000\c100000\c100000;\cssrgb\c29804\c29804\c29804;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww27560\viewh20120\viewkind0
+\deftab543
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f0\b\fs22 \cf2 \CocoaLigature0 \
+\
+
+\f1 \'c3\'bb\'d3\'d0\'b0\'b2\'d7\'b0\'d6\'a7\'b8\'b6\'b1\'a6\'bf\'cd\'bb\'a7\'b6\'cb\'b5\'c4\'c7\'e9\'bf\'f6\'a3\'a8\'cc\'f8\'d7\'aaH5\'a3\'a9
+\f0 \
+\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f2\b0 \cf2     \cf3 //
+\f1 \'d6\'d8\'d2\'aa\'cb\'b5\'c3\'f7
+\f2 \cf2 \
+    \cf3 //
+\f1 \'d5\'e2\'c0\'ef\'d6\'bb\'ca\'c7\'ce\'aa\'c1\'cb\'b7\'bd\'b1\'e3\'d6\'b1\'bd\'d3\'cf\'f2\'c9\'cc\'bb\'a7\'d5\'b9\'ca\'be\'d6\'a7\'b8\'b6\'b1\'a6\'b5\'c4\'d5\'fb\'b8\'f6\'d6\'a7\'b8\'b6\'c1\'f7\'b3\'cc\'a3\'bb\'cb\'f9\'d2\'d4
+\f2 Demo
+\f1 \'d6\'d0\'bc\'d3\'c7\'a9\'b9\'fd\'b3\'cc\'d6\'b1\'bd\'d3\'b7\'c5\'d4\'da\'bf\'cd\'bb\'a7\'b6\'cb\'cd\'ea\'b3\'c9\'a3\'bb
+\f2 \cf2 \
+    \cf3 //
+\f1 \'d5\'e6\'ca\'b5
+\f2 App
+\f1 \'c0\'ef\'a3\'ac
+\f2 privateKey
+\f1 \'b5\'c8\'ca\'fd\'be\'dd\'d1\'cf\'bd\'fb\'b7\'c5\'d4\'da\'bf\'cd\'bb\'a7\'b6\'cb\'a3\'ac\'bc\'d3\'c7\'a9\'b9\'fd\'b3\'cc\'ce\'f1\'b1\'d8\'d2\'aa\'b7\'c5\'d4\'da\'b7\'fe\'ce\'f1\'b6\'cb\'cd\'ea\'b3\'c9\'a3\'bb
+\f2 \cf2 \
+    \cf3 //
+\f1 \'b7\'c0\'d6\'b9\'c9\'cc\'bb\'a7\'cb\'bd\'c3\'dc\'ca\'fd\'be\'dd\'d0\'b9\'c2\'b6\'a3\'ac\'d4\'ec\'b3\'c9\'b2\'bb\'b1\'d8\'d2\'aa\'b5\'c4\'d7\'ca\'bd\'f0\'cb\'f0\'ca\'a7\'a3\'ac\'bc\'b0\'c3\'e6\'c1\'d9\'b8\'f7\'d6\'d6\'b0\'b2\'c8\'ab\'b7\'e7\'cf\'d5\'a3\'bb
+\f2 \cf2 \
+    \cf3 /*============================================================================*/\cf2 \
+    \cf3 /*=======================
+\f1 \'d0\'e8\'d2\'aa\'cc\'ee\'d0\'b4\'c9\'cc\'bb\'a7
+\f2 app
+\f1 \'c9\'ea\'c7\'eb\'b5\'c4
+\f2 ===================================*/\cf2 \
+    \cf3 /*============================================================================*/\cf2 \
+    \cf4 NSString\cf2  *appID = \cf5 @"2015052600090779"\cf2 ;\
+    \
+    \cf3 // 
+\f1 \'c8\'e7\'cf\'c2\'cb\'bd\'d4\'bf\'a3\'ac
+\f2 rsa2PrivateKey 
+\f1 \'bb\'f2\'d5\'df
+\f2  rsaPrivateKey 
+\f1 \'d6\'bb\'d0\'e8\'d2\'aa\'cc\'ee\'c8\'eb\'d2\'bb\'b8\'f6
+\f2 \cf2 \
+    \cf3 // 
+\f1 \'c8\'e7\'b9\'fb\'c9\'cc\'bb\'a7\'c1\'bd\'b8\'f6\'b6\'bc\'c9\'e8\'d6\'c3\'c1\'cb\'a3\'ac\'d3\'c5\'cf\'c8\'ca\'b9\'d3\'c3
+\f2  rsa2PrivateKey\cf2 \
+    \cf3 // rsa2PrivateKey 
+\f1 \'bf\'c9\'d2\'d4\'b1\'a3\'d6\'a4\'c9\'cc\'bb\'a7\'bd\'bb\'d2\'d7\'d4\'da\'b8\'fc\'bc\'d3\'b0\'b2\'c8\'ab\'b5\'c4\'bb\'b7\'be\'b3\'cf\'c2\'bd\'f8\'d0\'d0\'a3\'ac\'bd\'a8\'d2\'e9\'ca\'b9\'d3\'c3
+\f2  rsa2PrivateKey\cf2 \
+    \cf3 // 
+\f1 \'bb\'f1\'c8\'a1
+\f2  rsa2PrivateKey
+\f1 \'a3\'ac\'bd\'a8\'d2\'e9\'ca\'b9\'d3\'c3\'d6\'a7\'b8\'b6\'b1\'a6\'cc\'e1\'b9\'a9\'b5\'c4\'b9\'ab\'cb\'bd\'d4\'bf\'c9\'fa\'b3\'c9\'b9\'a4\'be\'df\'c9\'fa\'b3\'c9\'a3\'ac
+\f2 \cf2 \
+    \cf3 // 
+\f1 \'b9\'a4\'be\'df\'b5\'d8\'d6\'b7\'a3\'ba{\field{\*\fldinst{HYPERLINK "https://doc.open.alipay.com/docs/doc.htm?treeId=291&articleId=106097&docType=1"}}{\fldrslt 
+\f2 \cf6 https://doc.open.alipay.com/docs/doc.htm?treeId=291&articleId=106097&docType=1}}
+\f2 \cf2 \
+    \cf4 NSString\cf2  *rsa2PrivateKey = \cf5 @"123"\cf2 ;\
+    \cf4 NSString\cf2  *rsaPrivateKey = \cf5 @"456"\cf2 ;\
+    \cf3 /*============================================================================*/\cf2 \
+    \cf3 /*============================================================================*/\cf2 \
+    \cf3 /*============================================================================*/\cf2 \
+    \
+    \cf3 //    partner
+\f1 \'ba\'cd
+\f2 seller
+\f1 \'bb\'f1\'c8\'a1\'ca\'a7\'b0\'dc
+\f2 ,
+\f1 \'cc\'e1\'ca\'be
+\f2 \cf2 \
+    \cf7 if\cf2  ([appID \cf8 length\cf2 ] == \cf9 0\cf2  ||\
+        ([rsa2PrivateKey \cf8 length\cf2 ] == \cf9 0\cf2  && [rsaPrivateKey \cf8 length\cf2 ] == \cf9 0\cf2 ))\
+    \{\
+        \cf4 UIAlertView\cf2  *alert = [[\cf4 UIAlertView\cf2  \cf8 alloc\cf2 ] \cf8 initWithTitle\cf2 :\cf5 @"
+\f1 \'cc\'e1\'ca\'be
+\f2 "\cf2 \
+                                                        \cf8 message\cf2 :\cf5 @"
+\f1 \'c8\'b1\'c9\'d9
+\f2 appId
+\f1 \'bb\'f2\'d5\'df\'cb\'bd\'d4\'bf\'a1\'a3
+\f2 "\cf2 \
+                                                       \cf8 delegate\cf2 :\cf7 self\cf2 \
+                                              \cf8 cancelButtonTitle\cf2 :\cf5 @"
+\f1 \'c8\'b7\'b6\'a8
+\f2 "\cf2 \
+                                              \cf8 otherButtonTitles\cf2 :\cf7 nil\cf2 ];\
+        [alert \cf8 show\cf2 ];\
+        \cf7 return\cf2 ;\
+    \}\
+    \
+    \cf3 /*\
+     *
+\f1 \'c9\'fa\'b3\'c9\'b6\'a9\'b5\'a5\'d0\'c5\'cf\'a2\'bc\'b0\'c7\'a9\'c3\'fb
+\f2 \
+     */\cf2 \
+    \cf3 //
+\f1 \'bd\'ab\'c9\'cc\'c6\'b7\'d0\'c5\'cf\'a2\'b8\'b3\'d3\'e8
+\f2 AlixPayOrder
+\f1 \'b5\'c4\'b3\'c9\'d4\'b1\'b1\'e4\'c1\'bf
+\f2 \cf2 \
+    \cf10 Order\cf2 * order = [\cf10 Order\cf2  \cf8 new\cf2 ];\
+    \
+    \cf3 // NOTE: app_id
+\f1 \'c9\'e8\'d6\'c3
+\f2 \cf2 \
+    order.\cf10 app_id\cf2  = appID;\
+    \
+    \cf3 // NOTE: 
+\f1 \'d6\'a7\'b8\'b6\'bd\'d3\'bf\'da\'c3\'fb\'b3\'c6
+\f2 \cf2 \
+    order.\cf10 method\cf2  = \cf5 @"alipay.trade.app.pay"\cf2 ;\
+    \
+    \cf3 // NOTE: 
+\f1 \'b2\'ce\'ca\'fd\'b1\'e0\'c2\'eb\'b8\'f1\'ca\'bd
+\f2 \cf2 \
+    order.\cf10 charset\cf2  = \cf5 @"utf-8"\cf2 ;\
+    \
+    \cf3 // NOTE: 
+\f1 \'b5\'b1\'c7\'b0\'ca\'b1\'bc\'e4\'b5\'e3
+\f2 \cf2 \
+    \cf4 NSDateFormatter\cf2 * formatter = [\cf4 NSDateFormatter\cf2  \cf8 new\cf2 ];\
+    [formatter \cf8 setDateFormat\cf2 :\cf5 @"yyyy-MM-dd HH:mm:ss"\cf2 ];\
+    order.\cf10 timestamp\cf2  = [formatter \cf8 stringFromDate\cf2 :[\cf4 NSDate\cf2  \cf8 date\cf2 ]];\
+    \
+    \cf3 // NOTE: 
+\f1 \'d6\'a7\'b8\'b6\'b0\'e6\'b1\'be
+\f2 \cf2 \
+    order.\cf10 version\cf2  = \cf5 @"1.0"\cf2 ;\
+    \
+    \cf3 // NOTE: sign_type 
+\f1 \'b8\'f9\'be\'dd\'c9\'cc\'bb\'a7\'c9\'e8\'d6\'c3\'b5\'c4\'cb\'bd\'d4\'bf\'c0\'b4\'be\'f6\'b6\'a8
+\f2 \cf2 \
+    order.\cf10 sign_type\cf2  = (rsa2PrivateKey.\cf4 length\cf2  > \cf9 1\cf2 )?\cf5 @"RSA2"\cf2 :\cf5 @"RSA"\cf2 ;\
+    \
+    \cf3 // NOTE: 
+\f1 \'c9\'cc\'c6\'b7\'ca\'fd\'be\'dd
+\f2 \cf2 \
+    order.\cf10 biz_content\cf2  = [\cf10 BizContent\cf2  \cf8 new\cf2 ];\
+    order.\cf10 biz_content\cf2 .\cf10 body\cf2  = \cf5 @"
+\f1 \'ce\'d2\'ca\'c7\'b2\'e2\'ca\'d4\'ca\'fd\'be\'dd
+\f2 "\cf2 ;\
+    order.\cf10 biz_content\cf2 .\cf10 subject\cf2  = \cf5 @"1"\cf2 ;\
+    order.\cf10 biz_content\cf2 .\cf10 out_trade_no\cf2  = [\cf7 self\cf2  \cf11 generateTradeNO\cf2 ]; \cf3 //
+\f1 \'b6\'a9\'b5\'a5
+\f2 ID
+\f1 \'a3\'a8\'d3\'c9\'c9\'cc\'bc\'d2\'d7\'d4\'d0\'d0\'d6\'c6\'b6\'a8\'a3\'a9
+\f2 \cf2 \
+    order.\cf10 biz_content\cf2 .\cf10 timeout_express\cf2  = \cf5 @"30m"\cf2 ; \cf3 //
+\f1 \'b3\'ac\'ca\'b1\'ca\'b1\'bc\'e4\'c9\'e8\'d6\'c3
+\f2 \cf2 \
+    order.\cf10 biz_content\cf2 .\cf10 total_amount\cf2  = [\cf4 NSString\cf2  \cf8 stringWithFormat\cf2 :\cf5 @"%.2f"\cf2 , \cf9 0.01\cf2 ]; \cf3 //
+\f1 \'c9\'cc\'c6\'b7\'bc\'db\'b8\'f1
+\f2 \cf2 \
+    \
+    \cf3 //
+\f1 \'bd\'ab\'c9\'cc\'c6\'b7\'d0\'c5\'cf\'a2\'c6\'b4\'bd\'d3\'b3\'c9\'d7\'d6\'b7\'fb\'b4\'ae
+\f2 \cf2 \
+    \cf4 NSString\cf2  *orderInfo = [order \cf11 orderInfoEncoded\cf2 :\cf7 NO\cf2 ];\
+    \cf4 NSString\cf2  *orderInfoEncoded = [order \cf11 orderInfoEncoded\cf2 :\cf7 YES\cf2 ];\
+\cf3 //    NSLog(@"orderSpec = %@",orderInfo);\cf2 \
+    \
+    \cf3 // NOTE: 
+\f1 \'bb\'f1\'c8\'a1\'cb\'bd\'d4\'bf\'b2\'a2\'bd\'ab\'c9\'cc\'bb\'a7\'d0\'c5\'cf\'a2\'c7\'a9\'c3\'fb\'a3\'ac\'cd\'e2\'b2\'bf\'c9\'cc\'bb\'a7\'b5\'c4\'bc\'d3\'c7\'a9\'b9\'fd\'b3\'cc\'c7\'eb\'ce\'f1\'b1\'d8\'b7\'c5\'d4\'da\'b7\'fe\'ce\'f1\'b6\'cb\'a3\'ac\'b7\'c0\'d6\'b9\'b9\'ab\'cb\'bd\'d4\'bf\'ca\'fd\'be\'dd\'d0\'b9\'c2\'b6\'a3\'bb
+\f2 \cf2 \
+    \cf3 //       
+\f1 \'d0\'e8\'d2\'aa\'d7\'f1\'d1\'ad
+\f2 RSA
+\f1 \'c7\'a9\'c3\'fb\'b9\'e6\'b7\'b6\'a3\'ac\'b2\'a2\'bd\'ab\'c7\'a9\'c3\'fb\'d7\'d6\'b7\'fb\'b4\'ae
+\f2 base64
+\f1 \'b1\'e0\'c2\'eb\'ba\'cd
+\f2 UrlEncode\cf2 \
+    \cf4 NSString\cf2  *signedString = \cf7 nil\cf2 ;\
+    \cf10 RSADataSigner\cf2 * signer = [[\cf10 RSADataSigner\cf2  \cf8 alloc\cf2 ] \cf11 initWithPrivateKey\cf2 :((rsa2PrivateKey.\cf4 length\cf2  > \cf9 1\cf2 )?rsa2PrivateKey:rsaPrivateKey)];\
+    \cf7 if\cf2  ((rsa2PrivateKey.\cf4 length\cf2  > \cf9 1\cf2 )) \{\
+        signedString = [signer \cf11 signString\cf2 :orderInfo \cf11 withRSA2\cf2 :\cf7 YES\cf2 ];\
+    \} \cf7 else\cf2  \{\
+        signedString = [signer \cf11 signString\cf2 :orderInfo \cf11 withRSA2\cf2 :\cf7 NO\cf2 ];\
+    \}\
+    \
+    \cf3 // NOTE: 
+\f1 \'c8\'e7\'b9\'fb\'bc\'d3\'c7\'a9\'b3\'c9\'b9\'a6\'a3\'ac\'d4\'f2\'bc\'cc\'d0\'f8\'d6\'b4\'d0\'d0\'d6\'a7\'b8\'b6
+\f2 \cf2 \
+\cf3 //    if (signedString != nil) \{\cf2 \
+        \cf3 //
+\f1 \'d3\'a6\'d3\'c3\'d7\'a2\'b2\'e1
+\f2 scheme,
+\f1 \'d4\'da
+\f2 AliSDKDemo-Info.plist
+\f1 \'b6\'a8\'d2\'e5
+\f2 URL types\cf2 \
+        \cf4 NSString\cf2  *appScheme = \cf5 @"alisdkdemo"\cf2 ;\
+        \
+        \cf3 // NOTE: 
+\f1 \'bd\'ab\'c7\'a9\'c3\'fb\'b3\'c9\'b9\'a6\'d7\'d6\'b7\'fb\'b4\'ae\'b8\'f1\'ca\'bd\'bb\'af\'ce\'aa\'b6\'a9\'b5\'a5\'d7\'d6\'b7\'fb\'b4\'ae
+\f2 ,
+\f1 \'c7\'eb\'d1\'cf\'b8\'f1\'b0\'b4\'d5\'d5\'b8\'c3\'b8\'f1\'ca\'bd
+\f2 \cf2 \
+        \cf4 NSString\cf2  *orderString = [\cf4 NSString\cf2  \cf8 stringWithFormat\cf2 :\cf5 @"%@&sign=%@"\cf2 ,\
+                                 orderInfoEncoded, signedString];\
+        \
+        \cf3 // NOTE: 
+\f1 \'b5\'f7\'d3\'c3\'d6\'a7\'b8\'b6\'bd\'e1\'b9\'fb\'bf\'aa\'ca\'bc\'d6\'a7\'b8\'b6
+\f2 \cf2 \
+        [[\cf4 AlipaySDK\cf2  \cf8 defaultService\cf2 ] \cf8 payOrder\cf2 :orderString \cf8 fromScheme\cf2 :appScheme \cf8 callback\cf2 :^(\cf4 NSDictionary\cf2  *resultDic) \{\
+            \cf8 NSLog\cf2 (\cf5 @"reslut11111 = %@"\cf2 ,resultDic);\
+        \}];\
+\cf3 //    \}\
+\
+\
+\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f0\b \cf2 \
+2017-09-04 11:42:28.115890+0800 AliSDKDemo[347:19516] rsa_private read error : private key is NULL\
+2017-09-04 11:42:28.880886+0800 AliSDKDemo[347:19633] libMobileGestalt MobileGestaltSupport.m:153: pid 347 (AliSDKDemo) does not have sandbox access for frZQaeyWLUvLjeuEK43hmg and IS NOT appropriately entitled\
+2017-09-04 11:42:28.881066+0800 AliSDKDemo[347:19633] libMobileGestalt MobileGestalt.c:550: no access to InverseDeviceID (see <rdar://problem/11744455>)\
+2017-09-04 11:42:29.720768+0800 AliSDKDemo[347:19659] WF: === Starting WebFilter logging for process AliSDKDemo\
+2017-09-04 11:42:29.720909+0800 AliSDKDemo[347:19659] WF: _userSettingsForUser mobile: \{\
+    filterBlacklist =     (\
+    );\
+    filterWhitelist =     (\
+    );\
+    restrictWeb = 1;\
+    useContentFilter = 0;\
+    useContentFilterOverrides = 0;\
+    whitelistEnabled = 0;\
+\}\
+2017-09-04 11:42:29.721212+0800 AliSDKDemo[347:19659] WF: _WebFilterIsActive returning: NO\cb12 \
+\
+\
+2017-09-27 17:53:09.390826+0800 tableview
+\f1 \'c7\'b6\'cc\'d7
+\f0 webview[3768:907438] libMobileGestalt MobileGestaltSupport.m:153: pid 3768 (tableview\'c2\'b5\'e5\'c2\'95\'f3webview) does not have sandbox access for frZQaeyWLUvLjeuEK43hmg and IS NOT appropriately entitled\
+2017-09-27 17:53:09.391036+0800 tableview
+\f1 \'c7\'b6\'cc\'d7
+\f0 webview[3768:907438] libMobileGestalt MobileGestalt.c:550: no access to InverseDeviceID (see <rdar://problem/11744455>)\
+\
+\
+9
+\f1 \'b5\'c4\'cf\'b5\'cd\'b3
+\f0 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f1 \cf2 \'b5\'da\'d2\'bb\'b4\'ce\'bd\'f8\'c8\'a5
+\f2\b0 \cb1 loadHTMLString  \cf10 _usingUIWebView  YES\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf11 evaluateJavaScript \cf10 _usingUIWebView  YES\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f1\b \cf2 \cb12 \'b5\'da\'b6\'fe\'b4\'ce\'bd\'f8\'c8\'a5
+\f2\b0 loadHTMLString  \cf10 _usingUIWebView  NO\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf11 evaluateJavaScript \cf10 _usingUIWebView  NO\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f1\b \cf2 \'b5\'da\'c8\'fd\'b4\'ce\'bd\'f8\'c8\'a5
+\f2\b0 loadHTMLString  \cf10 _usingUIWebView  NO\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf11 evaluateJavaScript \cf10 _usingUIWebView  NO\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f0\b \cf2 10
+\f1 \'b5\'c4\'cf\'b5\'cd\'b3
+\f0 \
+
+\f1 \'b5\'da\'d2\'bb\'b4\'ce\'bd\'f8\'c8\'a5
+\f2\b0 loadHTMLString  \cf10 _usingUIWebView  YES\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf11 evaluateJavaScript \cf10 _usingUIWebView  YES\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f1\b \cf2 \'b5\'da\'b6\'fe\'b4\'ce\'bd\'f8\'c8\'a5
+\f2\b0 loadHTMLString  \cf10 _usingUIWebView  NO\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf11 evaluateJavaScript \cf10 _usingUIWebView  NO\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f1\b \cf2 \'b5\'da\'c8\'fd\'b4\'ce\'bd\'f8\'c8\'a5
+\f2\b0 loadHTMLString  \cf10 _usingUIWebView  NO\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf11 evaluateJavaScript \cf10 _usingUIWebView  NO\
+\
+\
+\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f1 \cf10 //\'ce\'d2\'b5\'c4\'ca\'d7\'d2\'b3\'b4\'f2\'b5\'e7\'bb\'b0\'b5\'c4\'b9\'a6\'c4\'dc
+\f2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f0\b \cf2 \cb1 2017-10-23 17:42:25.045 nihaoyishengyong[1487:440570] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x156a08f90 V:|-(20)-[UIInputSetContainerView:0x15690e470]   (Names: '|':UITextEffectsWindow:0x15690dee0 )>",\
+    "<NSLayoutConstraint:0x156a09030 UIInputSetContainerView:0x15690e470.bottom == UITextEffectsWindow:0x15690dee0.bottom>",\
+    "<NSLayoutConstraint:0x15688a380 'UIInputWindowController-height' UIInputSetContainerView:0x15690e470.height == UITextEffectsWindow:0x15690dee0.height>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x156a09030 UIInputSetContainerView:0x15690e470.bottom == UITextEffectsWindow:0x15690dee0.bottom>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2017-10-23 17:42:25.051 nihaoyishengyong[1487:440570] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x156a08f90 V:|-(20)-[UIInputSetContainerView:0x15690e470]   (Names: '|':UITextEffectsWindow:0x15690dee0 )>",\
+    "<NSLayoutConstraint:0x1568c9550 'UIInputWindowController-top' V:|-(0)-[UIInputSetContainerView:0x15690e470]   (Names: '|':UITextEffectsWindow:0x15690dee0 )>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x156a08f90 V:|-(20)-[UIInputSetContainerView:0x15690e470]   (Names: '|':UITextEffectsWindow:0x15690dee0 )>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+\
+\
+\
+\
+\
+\
+//
+\f1 \'b6\'a9\'b5\'a5\'cf\'ea\'c7\'e9
+\f0 \
+2017-10-23 17:46:02.060 nihaoyishengyong[1499:442824] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1468445f0 V:|-(20)-[UIInputSetContainerView:0x146953350]   (Names: '|':UITextEffectsWindow:0x1468b7150 )>",\
+    "<NSLayoutConstraint:0x146842200 UIInputSetContainerView:0x146953350.bottom == UITextEffectsWindow:0x1468b7150.bottom>",\
+    "<NSLayoutConstraint:0x1456d4e20 'UIInputWindowController-height' UIInputSetContainerView:0x146953350.height == UITextEffectsWindow:0x1468b7150.height>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x146842200 UIInputSetContainerView:0x146953350.bottom == UITextEffectsWindow:0x1468b7150.bottom>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+2017-10-23 17:46:02.072 nihaoyishengyong[1499:442824] Unable to simultaneously satisfy constraints.\
+	Probably at least one of the constraints in the following list is one you don't want. \
+	Try this: \
+		(1) look at each constraint and try to figure out which you don't expect; \
+		(2) find the code that added the unwanted constraint or constraints and fix it. \
+(\
+    "<NSLayoutConstraint:0x1468445f0 V:|-(20)-[UIInputSetContainerView:0x146953350]   (Names: '|':UITextEffectsWindow:0x1468b7150 )>",\
+    "<NSLayoutConstraint:0x146841370 'UIInputWindowController-top' V:|-(0)-[UIInputSetContainerView:0x146953350]   (Names: '|':UITextEffectsWindow:0x1468b7150 )>"\
+)\
+\
+Will attempt to recover by breaking constraint \
+<NSLayoutConstraint:0x1468445f0 V:|-(20)-[UIInputSetContainerView:0x146953350]   (Names: '|':UITextEffectsWindow:0x1468b7150 )>\
+\
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.\
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.\
+\
+\
+\
+\
+\
+\
+2017-10-26 14:40:32.353179+0800 nihaoyishengyong[3971:1497365] self.frame.size.height111111111111111111111111111:38.500000\
+2017-10-26 14:40:32.353318+0800 nihaoyishengyong[3971:1497365] self.contentSize.height222222222222222222222222222:35.500000\
+2017-10-26 14:40:32.353352+0800 nihaoyishengyong[3971:1497365] self.contentOffset.y333333333333333333333333333333333:0.000000\
+2017-10-26 14:40:32.353543+0800 nihaoyishengyong[3971:1497365] self.contentOffset.y444444444444444444444444444444444:20.500000\
+\
+\
+\
+\
+\
+\
+<p><em></em><img class='wscnph' src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACEGAJtKVAAnaXwi7EaQ022.jpg' data-mce-src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACEGAJtKVAAnaXwi7EaQ022.jpg'><img class='wscnph' src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACEGAJtKVAAnaXwi7EaQ022.jpg' data-mce-src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACEGAJtKVAAnaXwi7EaQ022.jpg'><img class='wscnph' src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACFiAQZq-AAIr4Xb68aY675.jpg' data-mce-src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACFiAQZq-AAIr4Xb68aY675.jpg'><br data-mce-bogus='1'></p><p><img class='wscnph' src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACEGAJtKVAAnaXwi7EaQ022.jpg' data-mce-src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACEGAJtKVAAnaXwi7EaQ022.jpg'><img class='wscnph' src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACFiAQZq-AAIr4Xb68aY675.jpg' data-mce-src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACFiAQZq-AAIr4Xb68aY675.jpg'></p><p><img class='wscnph' src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACEGAJtKVAAnaXwi7EaQ022.jpg' data-mce-src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACEGAJtKVAAnaXwi7EaQ022.jpg'><img class='wscnph' src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACFiAQZq-AAIr4Xb68aY675.jpg' data-mce-src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACFiAQZq-AAIr4Xb68aY675.jpg'><img class='wscnph' src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACHGAUFXcAAKRsDA2Bdg651.jpg' data-mce-src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACHGAUFXcAAKRsDA2Bdg651.jpg'></p><p><img class='wscnph' src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACEGAJtKVAAnaXwi7EaQ022.jpg' data-mce-src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACEGAJtKVAAnaXwi7EaQ022.jpg'><img class='wscnph' src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACFiAQZq-AAIr4Xb68aY675.jpg' data-mce-src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACFiAQZq-AAIr4Xb68aY675.jpg'><img class='wscnph' src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACHGAUFXcAAKRsDA2Bdg651.jpg' data-mce-src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACHGAUFXcAAKRsDA2Bdg651.jpg'><img class='wscnph' src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACIGAJBKXAAdcAOxflc4523.jpg' data-mce-src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACIGAJBKXAAdcAOxflc4523.jpg'><img class='wscnph' src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACJGASamLAAeRiP0FmPg620.jpg' data-mce-src='http://www.hellodoctor.com.cn/group1/M00/00/10/O24Z7loACJGASamLAAeRiP0FmPg620.jpg'></p>\
+\
+\
+\
+\
+\
+<p><img class='wscnph' src='http://www.hellodoctor.com.cn/group1/M00/00/11/O24Z7loATs-ALetGAAPwAj9XQVY753.jpg' data-mce-src='http://www.hellodoctor.com.cn/group1/M00/00/11/O24Z7loATs-ALetGAAPwAj9XQVY753.jpg'><img class='wscnph' src='http://www.hellodoctor.com.cn/group1/M00/00/11/O24Z7loATteAWsbkAAQBI-bEQC0575.jpg' data-mce-src='http://www.hellodoctor.com.cn/group1/M00/00/11/O24Z7loATteAWsbkAAQBI-bEQC0575.jpg'><img class='wscnph' src='http://www.hellodoctor.com.cn/group1/M00/00/11/O24Z7loATt-AQuHhAALy4sGRZfA481.jpg' data-mce-src='http://www.hellodoctor.com.cn/group1/M00/00/11/O24Z7loATt-AQuHhAALy4sGRZfA481.jpg'><img class='wscnph' src='http://www.hellodoctor.com.cn/group1/M00/00/11/O24Z7loATwWAdKp7AA90QYbXgWA587.jpg' data-mce-src='http://www.hellodoctor.com.cn/group1/M00/00/11/O24Z7loATwWAdKp7AA90QYbXgWA587.jpg'></p>\
+\
+\
+\
+//
+\f1 \'d4\'a4\'d4\'bc\'c1\'d0\'b1\'ed\'b5\'c4\'d2\'bb\'cc\'f5\'ca\'fd\'be\'dd
+\f0 \
+\{\
+                    company = 1;\
+                    companyName = "\\U5317\\U4eac\\U60a6\\U5b8c\\U7f8e\\U516c\\U53f8";\
+                    createDate = "2017-10-25 15:01:39";\
+                    discountAmount = 0;\
+                    expire = "2017-10-25 16:01:39";\
+                    guardCustomerId = 112338;\
+                    guardOrderId = "<null>";\
+                    id = 732;\
+                    isInvoice = "<null>";\
+                    memo = "<null>";\
+                    mobile = "<null>";\
+                    modifyDate = "2017-10-25 15:01:39";\
+                    orderAmount = "0.01";\
+                    orderItems =                     (\
+                                                \{\
+                            amount = "0.01";\
+                            company = 1;\
+                            createDate = "2017-10-25 15:01:39";\
+                            customerName = "<null>";\
+                            entireAmount = "0.01";\
+                            guardChargeId = "<null>";\
+                            guardCustomerId = 112338;\
+                            guardOrderDetailId = "<null>";\
+                            guardStaffId = "<null>";\
+                            id = 732;\
+                            isReview = 0;\
+                            mobile = "<null>";\
+                            modifyDate = "2017-10-25 15:01:39";\
+                            num = 1;\
+                            orderForm = 732;\
+                            orderStatus = 4;\
+                            productGood = 76;\
+                            productName = "\\U9f3b\\U5c0f\\U67f1\\U5ef6\\U957f\\Uff08\\U60a6\\U5b8c\\U7f8e\\U533b\\U9662\\Uff09";\
+                            restNum = 1;\
+                            sn = 20171025020000004T;\
+                            staff = 3;\
+                            thumbnail = "group1/M00/00/0F/O24Z7lnwLpGAT1kcAAD1iPEyC1o899.png";\
+                            user = 191;\
+                        \}\
+                    );\
+                    orderStatus = 4;\
+                    paidTime = "2017-10-26 15:32:55";\
+                    payAmount = "0.01";\
+                    paymentMethod = "<null>";\
+                    paymentStatus = 2;\
+                    platform = "<null>";\
+                    sn = 20171025020000004T;\
+                    taxFee = "<null>";\
+                    user = 191;\
+                    userName = "<null>";\
+                \},\
+\
+\
+//
+\f1 \'cc\'ed\'bc\'d3\'d4\'a4\'d4\'bc\'c7\'eb\'c7\'f3\'b5\'c4\'ca\'fd\'be\'dd
+\f0 \
+\{\
+    appointDate = "2017-11-14";\
+    chargeId = "";\
+    chargeName = "\\U9f3b\\U5c0f\\U67f1\\U5ef6\\U957f\\Uff08\\U60a6\\U5b8c\\U7f8e\\U533b\\U9662\\Uff09";\
+    companyId = 1;\
+    doctorName = "\\U5b59\\U5a9b\\U5a9b";\
+    endTime = "16:30:00";\
+    orderItemId = "";\
+    productGoodId = 76;\
+    staffId = 175;\
+    startTime = "15:30:00";\
+    subHospitalId = 3;\
+    subHospitalName = "\\U7259\\U535a\\U58eb\\U5434\\U4e2d\\U673a\\U6784";\
+    treatNum = 1;\
+\}\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab543\pardirnatural\partightenfactor0
+
+\f2\b0 \cf13 \cb12 DF11C142-1584-4A99-87AC-1925D5F5652A\
+\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f0\b \cf2 \cb1 22.955000   
+\f1 \'d3\'d0\'ca\'fd\'be\'dd(\'b2\'a3\'c4\'f2\'cb\'e1)\'b5\'c4\'ca\'b1\'ba\'f2\
+
+\f0 22.955000   @\'93\'94
+\f1 \'bf\'d5\'d7\'d6\'b7\'fb\'b4\'ae\'b5\'c4\'ca\'b1\'ba\'f2
+\f0 \
+22.955000   @\'93 \'94
+\f1 \'bf\'d5\'b8\'f1\'d7\'d6\'b7\'fb\'b4\'ae\'b5\'c4\'ca\'b1\'ba\'f2
+\f0 \
+22.955000   @\'93
+\f2\b0 \CocoaLigature1 1111
+\f0\b \CocoaLigature0 \'94
+\f1 \'d7\'d6\'b7\'fb\'b4\'ae
+\f2\b0 \CocoaLigature1 1111
+\f1\b \CocoaLigature0 \'b5\'c4\'ca\'b1\'ba\'f2\
+
+\f0 7.680000    nil
+\f1 \'b5\'c4\'ca\'b1\'ba\'f2\
+\
+
+\f0 2017-11-16 17:56:41.615750+0800 nihaoyishengyong[4599:2338975] dict:\{\
+    code = 0;\
+    content =     (\
+                \{\
+            companyId = 1;\
+            companyName = "\\U5317\\U4eac\\U60a6\\U5b8c\\U7f8e\\U516c\\U53f8";\
+            createDate = "2017-11-15 17:45:42";\
+            customer = "<null>";\
+            guardDoctorids = "null,null";\
+            guardDoctors = "null,null";\
+            id = 2;\
+            modifyDate = "2017-11-15 17:45:42";\
+            num = 1;\
+            productGoodId = 36;\
+            productName = "\\U7845\\U80f6\\U9686\\U9f3b\\Uff08\\U65b0\\U6b3e\\Uff09";\
+            status = 1;\
+            titileName = "\\U60a8\\U5728\\U5317\\U4eac\\U60a6\\U5b8c\\U7f8e\\U516c\\U53f8\\U6d88\\U8d39\\U4e86\\U7845\\U80f6\\U9686\\U9f3b\\Uff08\\U65b0\\U6b3e\\Uff09\\U9879\\U76ee\\Uff0c\\U8bf7\\U53ca\\U65f6\\U786e\\U8ba4\\Uff01";\
+        \},\
+                \{\
+            companyId = 1;\
+            companyName = "\\U5317\\U4eac\\U60a6\\U5b8c\\U7f8e\\U516c\\U53f8";\
+            createDate = "2017-11-15 17:58:06";\
+            customer = "<null>";\
+            guardDoctorids = "null,null";\
+            guardDoctors = "null,null";\
+            id = 3;\
+            modifyDate = "2017-11-15 17:58:06";\
+            num = 1;\
+            productGoodId = 81;\
+            productName = "\\U6d4b\\U8bd5\\U9884\\U7ea6\\U5212\\U6263-\\U745e\\U767d\\U989c\\U73bb\\U5c3f\\U91781ml";\
+            status = 1;\
+            titileName = "\\U60a8\\U5728\\U5317\\U4eac\\U60a6\\U5b8c\\U7f8e\\U516c\\U53f8\\U6d88\\U8d39\\U4e86\\U6d4b\\U8bd5\\U9884\\U7ea6\\U5212\\U6263-\\U745e\\U767d\\U989c\\U73bb\\U5c3f\\U91781ml\\U9879\\U76ee\\Uff0c\\U8bf7\\U53ca\\U65f6\\U786e\\U8ba4\\Uff01";\
+        \},\
+                \{\
+            companyId = 1;\
+            companyName = "\\U5317\\U4eac\\U60a6\\U5b8c\\U7f8e\\U516c\\U53f8";\
+            createDate = "2017-11-16 15:48:44";\
+            customer = "<null>";\
+            guardDoctorids = null;\
+            guardDoctors = null;\
+            id = 5;\
+            modifyDate = "2017-11-16 15:48:44";\
+            num = 1;\
+            productGoodId = 36;\
+            productName = "\\U7845\\U80f6\\U9686\\U9f3b\\Uff08\\U65b0\\U6b3e\\Uff09";\
+            status = 1;\
+            titileName = "\\U60a8\\U5728\\U5317\\U4eac\\U60a6\\U5b8c\\U7f8e\\U516c\\U53f8\\U6d88\\U8d39\\U4e86\\U7845\\U80f6\\U9686\\U9f3b\\Uff08\\U65b0\\U6b3e\\Uff09\\U9879\\U76ee\\Uff0c\\U8bf7\\U53ca\\U65f6\\U786e\\U8ba4\\Uff01";\
+        \},\
+                \{\
+            companyId = 1;\
+            companyName = "\\U5317\\U4eac\\U60a6\\U5b8c\\U7f8e\\U516c\\U53f8";\
+            createDate = "2017-11-16 17:26:05";\
+            customer = "<null>";\
+            guardDoctorids = null;\
+            guardDoctors = null;\
+            id = 6;\
+            modifyDate = "2017-11-16 17:26:05";\
+            num = 1;\
+            productGoodId = 81;\
+            productName = "\\U6d4b\\U8bd5\\U9884\\U7ea6\\U5212\\U6263-\\U745e\\U767d\\U989c\\U73bb\\U5c3f\\U91781ml";\
+            status = 1;\
+            titileName = "\\U60a8\\U5728\\U5317\\U4eac\\U60a6\\U5b8c\\U7f8e\\U516c\\U53f8\\U6d88\\U8d39\\U4e86\\U6d4b\\U8bd5\\U9884\\U7ea6\\U5212\\U6263-\\U745e\\U767d\\U989c\\U73bb\\U5c3f\\U91781ml\\U9879\\U76ee\\Uff0c\\U8bf7\\U53ca\\U65f6\\U786e\\U8ba4\\Uff01";\
+        \}\
+    );\
+    desc = success;\
+\}\
+\
+\
+\
+1.
+\f1 \'bc\'c6\'cb\'e3\'c8\'fd\'d0\'d0\'b5\'c4\'b8\'df\'b6\'c8
+\f0 100 temp  +5\
+2.
+\f1 \'c8\'e7\'b9\'fb\'ba\'f3\'cc\'a8\'bb\'f1\'c8\'a1\'b5\'c4\'ce\'c4\'b1\'be\'b8\'df\'b6\'c8\'b4\'f3\'d3\'da100\'a3\'ac\'cf\'d4\'ca\'be\'b0\'b4\'c5\'a5\'a3\'bb\'b0\'b4\'cf\'c2\'b0\'b4\'c5\'a5\'ce\'c4\'b1\'be\'c8\'ab\'b2\'bf\'cf\'d4\'ca\'be\'b3\'f6\'c0\'b4\'a3\'ac\'d2\'fe\'b2\'d8\'b0\'b4\'c5\'a5\
+3.\'c8\'e7\'b9\'fb\'ba\'f3\'cc\'a8\'bb\'f1\'c8\'a1\'b5\'c4\'ce\'c4\'b1\'be\'b8\'df\'b6\'c8\'d0\'a1\'d3\'da100\'a3\'ac\'d2\'fe\'b2\'d8\'b0\'b4\'c5\'a5
+\f0 \
+\
+//
+\f1 \'b7\'d6\'cf\'ed\'b3\'c9\'b9\'a6
+\f0 \
+2017-12-01 15:35:31.079 nihaoyishengyong[6940:2273482] resp.message:(null)\
+2017-12-01 15:35:32.403 nihaoyishengyong[6940:2273482] resp.originalResponse:0\
+\
+\
+[access] This app has crashed because it attempted to access privacy-sensitive data without a usage description.  The app's Info.plist must contain an NSPhotoLibraryAddUsageDescription key with a string value explaining to the user how the app uses this data.\
+\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f2\b0 \cf5 \cb12 \CocoaLigature1 http://itunes.apple.com/cn/app/id1256839462\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f0\b \cf2 \cb1 \CocoaLigature0 \{\
+  "refundAmount" : 0.01,\
+  "refundReason" : 6,\
+  "modifyDate" : "2017-12-14 18:17:02",\
+  "refundPlugin" : "weixinRefundPlugin",\
+  "productGoodImage" : "group1\\/M00\\/00\\/12\\/O24Z7loKlrWAa4FXAACuEA5BBZs712.jpg",\
+  "company" : 1,\
+  "notifyResultCode" : null,\
+  "sn" : "20171214040000013T",\
+  "refundReasonStr" : "
+\f1 \'b8\'c4\'d7\'f6\'b1\'f0\'b5\'c4\'cf\'ee\'c4\'bf
+\f0 ",\
+  "productGood" : 81,\
+  "memo" : "",\
+  "refundOrderAmount" : null,\
+  "id" : 37,\
+  "payment" : 925,\
+  "orderItem" : 1044,\
+  "refundTaxFee" : null,\
+  "productGoodName" : "
+\f1 \'b2\'e2\'ca\'d4\'d4\'a4\'d4\'bc\'bb\'ae\'bf\'db
+\f0 -
+\f1 \'c8\'f0\'b0\'d7\'d1\'d5\'b2\'a3\'c4\'f2\'cb\'e1
+\f0 1ml",\
+  "notifyResult" : null,\
+  "customer" : 214,\
+  "orderForm" : 1044,\
+  "payTradeNo" : "4200000010201712144053031999",\
+  "refundType" : null,\
+  "refundStatus" : 2,\
+  "notifyDate" : "2017-12-14 18:17:01",\
+  "createDate" : "2017-12-14 18:16:13",\
+  "refundNum" : 5,\
+  "companyName" : "
+\f1 \'b1\'b1\'be\'a9\'d4\'c3\'cd\'ea\'c3\'c0\'d5\'fb\'d0\'ce\'c3\'c0\'c8\'dd\'b8\'df\'bc\'b6\'bf\'c6\'bc\'bc\'d3\'d0\'cf\'de\'b9\'ab\'cb\'be
+\f0 "\
+\}\
+\
+\
+\{\
+        process =         (\
+                        \{\
+                createDate = "2017-12-15 11:46:01";\
+                id = 84;\
+                memo = "<null>";\
+                modifyDate = "2017-12-15 11:46:01";\
+                status = 3;\
+            \},\
+                        \{\
+                createDate = "2017-12-15 11:46:01";\
+                id = 85;\
+                memo = "<null>";\
+                modifyDate = "2017-12-15 11:46:01";\
+                status = 2;\
+            \},\
+                        \{\
+                createDate = "2017-12-15 11:45:52";\
+                id = 83;\
+                memo = "<null>";\
+                modifyDate = "2017-12-15 11:45:52";\
+                status = 0;\
+            \}\
+        );\
+        refund =         \{\
+            company = 1;\
+            companyName = "\\U5317\\U4eac\\U60a6\\U5b8c\\U7f8e\\U6574\\U5f62\\U7f8e\\U5bb9\\U9ad8\\U7ea7\\U79d1\\U6280\\U6709\\U9650\\U516c\\U53f8";\
+            createDate = "2017-12-15 11:45:52";\
+            customer = 214;\
+            id = 41;\
+            memo = "\\U57280";\
+            modifyDate = "2017-12-15 11:46:01";\
+            notifyDate = "2017-12-15 11:46:01";\
+            notifyResult = "<null>";\
+            notifyResultCode = 10000;\
+            orderForm = 1049;\
+            orderItem = 1049;\
+            payTradeNo = 2017121521001004740268935621;\
+            payment = 930;\
+            productGood = 81;\
+            productGoodImage = "group1/M00/00/12/O24Z7loKlrWAa4FXAACuEA5BBZs712.jpg";\
+            productGoodName = "\\U6d4b\\U8bd5\\U9884\\U7ea6\\U5212\\U6263-\\U745e\\U767d\\U989c\\U73bb\\U5c3f\\U91781ml";\
+            refundAmount = "0.01";\
+            refundNum = 1;\
+            refundOrderAmount = "<null>";\
+            refundPlugin = alipayDirectRefundPlugin;\
+            refundReason = 6;\
+            refundReasonStr = "\\U6539\\U505a\\U522b\\U7684\\U9879\\U76ee";\
+            refundStatus = 2;\
+            refundTaxFee = "<null>";\
+            refundType = "<null>";\
+            sn = 20171215040000002T;\
+        \};\
+    \};\
+\
+\
+\
+2017-12-25 21:46:54.109466+0800 nihaoyishengyong[23056:422986] self.superview.nim_height:724.000000\
+2017-12-25 21:46:54.109548+0800 nihaoyishengyong[23056:422986] self.nim_top:646.000000\
+2017-12-25 21:46:54.109584+0800 nihaoyishengyong[23056:422986] showInputView:0\
+2017-12-25 21:46:54.109616+0800 nihaoyishengyong[23056:422986] bottomPadding:78.000000\
+\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f1\b0 \cf14 \cb12 \CocoaLigature1 1.\'bb\'f1\'c8\'a1\'d2\'bd\'c9\'fa\'d6\'b0\'ce\'bb\\\'bb\'f1\'c8\'a1\'d2\'bd\'c9\'fa\'cf\'ea\'cf\'b8\'d0\'c5\'cf\'a2\\\'bb\'f1\'c8\'a1\'d2\'bd\'c9\'fa\'c8\'cf\'d6\'a4\'d0\'c5\'cf\'a2\
+\
+\'bb\'f1\'c8\'a1\'d2\'bd\'c9\'fa\'c8\'cf\'d6\'a4\'d0\'c5\'cf\'a2 
+\f0\b \cf2 \cb1 \CocoaLigature0 http://betterme.easyhrp.cn/doct-openapi/api/staff/getAuthinfo.jhtml\
+
+\f1\b0 \cf14 \cb12 \CocoaLigature1 \'bb\'f1\'c8\'a1\'d2\'bd\'c9\'fa\'cf\'ea\'cf\'b8\'d0\'c5\'cf\'a2 
+\f0\b \cf2 \cb1 \CocoaLigature0 http://betterme.easyhrp.cn/doct-openapi/api/staff/staff_detail_info.jhtml\
+
+\f1\b0 \cf14 \cb12 \CocoaLigature1 \'bb\'f1\'c8\'a1\'d2\'bd\'c9\'fa\'d6\'b0\'ce\'bb 
+\f0\b \cf2 \cb1 \CocoaLigature0 http://betterme.easyhrp.cn/doct-openapi/api/staff/getStaffCompanyRoles.jhtml\
+\
+\
+\
+\
+2018-01-22 17:00:51.634869+0800 nihaoyishengyong[12003:4961213] dict=\{\
+    code = 0;\
+    content =     (\
+        "group1/M00/00/14/O24Z7lplqD-Ac9ZFAADXIjZSbRI542.png",\
+        "group1/M00/00/14/O24Z7lplqECAfi5KAADBFG7zvuY344.png",\
+        "group1/M00/00/14/O24Z7lplqECAYfW9AAJ0ZYytXuk994.png",\
+        "group1/M00/00/14/O24Z7lplqECACStDAABWyDzcfUQ112.png",\
+        "group1/M00/00/14/O24Z7lplqEGAc1D2AABYcSowvQA566.png",\
+        "group1/M00/00/14/O24Z7lplqEGAWLPXAADSCCz9bmI351.png"\
+    );\
+    desc = success;\
+\}\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f1 \cf2 //
+\b0 \cf14 \cb12 \CocoaLigature1 \'bb\'f1\'c8\'a1\'d2\'bd\'c9\'fa\'c8\'cf\'d6\'a4\'d0\'c5\'cf\'a2   
+\f0\b \cf2 \cb1 \CocoaLigature0 StaffGetAuthinfoAPI:http://betterme.easyhrp.cn/doct-openapi/api/staff/getAuthinfo.jhtml\
+//
+\f1\b0 \cf14 \cb12 \CocoaLigature1 \'bb\'f1\'c8\'a1\'cb\'f9\'d3\'d0\'d2\'bd\'c9\'fa\'d6\'b0\'ce\'bb  
+\f0\b \cf2 \cb1 \CocoaLigature0 StaffGetStaffCompanyRolesAPI:http://betterme.easyhrp.cn/doct-openapi/api/staff/getStaffCompanyRoles.jhtml\
+//
+\f1\b0 \cf14 \cb12 \CocoaLigature1 \'bb\'f1\'c8\'a1\'d2\'bd\'c9\'fa\'cf\'ea\'cf\'b8\'d0\'c5\'cf\'a2  
+\f0\b \cf2 \cb1 \CocoaLigature0 http://betterme.easyhrp.cn/doct-openapi/api/staff/staff_detail_info.jhtml\
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab543\pardirnatural\partightenfactor0
+
+\f2\b0 \cf15 \CocoaLigature1 git -c diff.mnemonicprefix=false -c core.quotepath=false -c credential.helper=sourcetree commit -q -F /var/folders/nq/75y7kn750yx00wx47yxj9m9r0000gn/T/SourceTreeTemp.BwcjkF \
+\cf0 \
+\
+\cf15 git -c diff.mnemonicprefix=false -c core.quotepath=false -c credential.helper=sourcetree push -v --set-upstream origin refs/heads/master:refs/heads/master \
+\cf16 Pushing to http://192.168.1.100/perfect/iOS-nihaoyishengYong.git\
+POST git-receive-pack (14518583 bytes)\
+error: RPC failed; HTTP 413 curl 22 The requested URL returned error: 413 Request Entity Too Large\
+fatal: The remote end hung up unexpectedly\
+fatal: The remote end hung up unexpectedly\
+Everything up-to-date\
+\cf15 Completed with errors, see above\
+\
+\
+
+\f1 \'a1\'a2\'a1\'a2\'a1\'a2\'a1\'a2\'a1\'a2\'a1\'a2
+\f2 \
+git -c diff.mnemonicprefix=false -c core.quotepath=false -c credential.helper=sourcetree commit -q -F /var/folders/nq/75y7kn750yx00wx47yxj9m9r0000gn/T/SourceTreeTemp.YNMT05 \
+\cf0 \
+\
+\cf15 git -c diff.mnemonicprefix=false -c core.quotepath=false -c credential.helper=sourcetree push -v --set-upstream origin refs/heads/master:refs/heads/master \
+\cf16 Pushing to http://192.168.1.100/perfect/iOS-nihaoyishengYong.git\
+POST git-receive-pack (14923340 bytes)\
+error: RPC failed; HTTP 413 curl 22 The requested URL returned error: 413 Request Entity Too Large\
+fatal: The remote end hung up unexpectedly\
+fatal: The remote end hung up unexpectedly\
+Everything up-to-date\
+\cf15 Completed with errors, see above\
+\
+1.
+\f1 \'c4\'e3\'ba\'c3\'c2\'f0\'a3\'ac\'ce\'d2\'ba\'dc\'ba\'c3\'b0\'a1\'a1\'a3\'ce\'d2\'c0\'b4\'c1\'cb
+\f2 \
+
+\f1 \'c4\'e3\'bb\'b9\'d4\'da\'c2\'f0\'a3\'bf\'ce\'d2\'d2\'d1\'be\'ad\'b2\'bb\'d4\'da\'c1\'cb\'a1\'a3\'b9\'fe\'b9\'fe\'a3\'ac\'d4\'ad\'c0\'b4\'c4\'e3\'d2\'d1\'be\'ad\'c0\'eb\'bf\'aa\'c1\'cb\'a1\'a3\'bf\'b4\'c0\'b4\'ce\'d2\'c0\'b4\'cd\'ed\'c1\'cb\'c4\'e3\'c3\'bb\'d3\'d0\'c0\'b4\'cd\'ed\'b0\'a1\'a1\'a3\'ca\'c7\'ce\'d2\'c0\'b4\'cd\'ed\'c1\'cb\'a1\'a3\'c8\'e7\'b9\'fb\'cb\'b5\'ce\'d2\'ca\'e4\'c1\'cb\'a3\'ac\'c4\'c7\'c3\'b4\'c4\'e3\'be\'cd\'d3\'ae\'c1\'cb\'a1\'a3\'d5\'e2\'b8\'f6\'d0\'a1\'d4\'fc\'d4\'fc\'a3\'ac\'b2\'dd\'b4\'d4\'c8\'fd\'e6\'bb\'d7\'d3\'a1\'a3\'b6\'bc\'cb\'b5\'b4\'e6\'d4\'da\'cd\'e2\'d0\'c7\'c8\'cb\'a3\'ac\'ce\'d2\'d4\'f5\'c3\'b4\'be\'cd\'b2\'bb\'d5\'e2\'c3\'b4\'be\'f5\'b5\'c3\'c4\'d8\'a3\'bf\'e2\'ab\'cb\'f6\'b7\'a2\'d3\'fd\'a3\'ac\'b1\'f0\'c0\'cb\'a1\'a3\'c0\'cf\'bb\'a2\'b0\'a1\'c4\'e3\'a3\'ac\'b9\'fe\'b9\'fe\'b9\'fe\'a3\'ac\'ce\'d2\'c0\'b4\'c1\'cb\'a1\'a3\'ce\'aa\'c1\'cb\'cd\'f5\'d5\'df\'b5\'c4\'d0\'ce\'cf\'f3\'a3\'ac\'c1\'ac\'cb\'af\'be\'f5\'b6\'bc\'d2\'aa\'b4\'a9\'d7\'c5\'ee\'f8\'bc\'d7\'a1\'a3\'bb\'fa\'d0\'b5\'bc\'a7\'a1\'a3\'d0\'a1\'bc\'a6\'bc\'a6\'a3\'ac\'c4\'e3\'d3\'d0\'c2\'f0\'a3\'bf\'ce\'d2\'d6\'aa\'b5\'c0\'c4\'e3\'c3\'bb\'d3\'d0\
+\
+//11\'cf\'b5\'cd\'b3\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f0\b \cf2 \CocoaLigature0 2018-03-02 11:12:21.000395+0800 nihaoyishengyong[576:142962] body:
+\f1 \'d5\'c5\'bb\'aa\'cf\'b2\'bb\'b6\'c1\'cb\'c4\'fa\'b5\'c4\'d1\'d5\'d6\'b5
+\f0 \
+2018-03-02 11:12:22.840529+0800 nihaoyishengyong[576:142962] subtitle:(null)\
+2018-03-02 11:12:23.867277+0800 nihaoyishengyong[576:142962] title:
+\f1 \'d4\'c3\'cd\'ea\'c3\'c0
+\f0 \
+2018-03-02 11:12:24.954539+0800 nihaoyishengyong[576:142962] userInfoDict:\{\
+    "_ENV_" = DEV;\
+    aps =     \{\
+        alert =         \{\
+            body = "\\U5f20\\U534e\\U559c\\U6b22\\U4e86\\U60a8\\U7684\\U989c\\U503c";\
+            title = "\\U60a6\\U5b8c\\U7f8e";\
+        \};\
+        badge = 5;\
+        category = "iOS10 Notification Category";\
+        "mutable-content" = 1;\
+        sound = default;\
+    \};\
+    i = 128103072;\
+    k2 = v2;\
+    m = "500402&&ALIYUN_24801176_500402&&ALIYUN_3305b8d241834d869e904408c32bf2e0&&00&&@apns";\
+\}
+\f1 \
+\
+//10\'cf\'b5\'cd\'b3\
+
+\f0 2018-03-02 11:15:07.841464+0800 nihaoyishengyong[1626:465324] body:
+\f1 \'d5\'c5\'bb\'aa\'cf\'b2\'bb\'b6\'c1\'cb\'c4\'fa\'b5\'c4\'d1\'d5\'d6\'b5
+\f0 \
+2018-03-02 11:15:08.726445+0800 nihaoyishengyong[1626:465324] subtitle:(null)\
+2018-03-02 11:15:09.641465+0800 nihaoyishengyong[1626:465324] title:
+\f1 \'d4\'c3\'cd\'ea\'c3\'c0
+\f0 \
+2018-03-02 11:15:10.536547+0800 nihaoyishengyong[1626:465324] userInfoDict:\{\
+    "_ENV_" = DEV;\
+    aps =     \{\
+        alert =         \{\
+            body = "\\U5f20\\U534e\\U559c\\U6b22\\U4e86\\U60a8\\U7684\\U989c\\U503c";\
+            title = "\\U60a6\\U5b8c\\U7f8e";\
+        \};\
+        badge = 5;\
+        category = "iOS10 Notification Category";\
+        "mutable-content" = 1;\
+        sound = default;\
+    \};\
+    i = 128103328;\
+    k2 = v2;\
+    m = "500403&&ALIYUN_24801176_500403&&ALIYUN_099757bac1544599bddfcfb2668c22b3&&00&&@apns";\
+\}\
+\
+
+\f1 //9\'cf\'b5\'cd\'b3
+\f0 \
+2018-03-02 11:16:38.739 nihaoyishengyong[573:162800] userInfo:\{\
+    "_ENV_" = DEV;\
+    aps =     \{\
+        alert =         \{\
+            body = "\\U5f20\\U534e\\U559c\\U6b22\\U4e86\\U60a8\\U7684\\U989c\\U503c";\
+            title = "\\U60a6\\U5b8c\\U7f8e";\
+        \};\
+        badge = 5;\
+        category = "iOS10 Notification Category";\
+        "mutable-content" = 1;\
+        sound = default;\
+    \};\
+    i = 128103584;\
+    k2 = v2;\
+    m = "500404&&ALIYUN_24801176_500404&&ALIYUN_836ddb654d064490843d0c6e738f1cee&&00&&@apns";\
+\}\
+\
+\
+//
+\f1 \'c6\'c0\'c2\'db\'b5\'c4
+\f0 json
+\f1 \'ca\'fd\'be\'dd
+\f0 \
+\{\
+  "body" : "\{'createDate':1519968291916,'customer':214,'customerName':'
+\f1 \'b2\'bb\'d6\'aa\'b5\'c0\'bd\'d0
+\f0   
+\f1 \'ca\'b2\'c3\'b4\'c3\'fb\'ba\'c3
+\f0 ','linkCustomer':204,'linkCustomerName':'
+\f1 \'d5\'c5\'bb\'aa
+\f0 ','msgContent':'
+\f1 \'b7\'b4\'b7\'b4\'b8\'b4\'b8\'b4\'b7\'d6
+\f0 ','msgType':4,'msgTypeId':187,'noteAuthor':204,'noteId':187,'noteReplyId':523\}",\
+  "id" : 148,\
+  "create_date" : "2018-03-02 13:24:52",\
+  "note_author" : 204,\
+  "customerImagePath" : "group1\\/M00\\/00\\/13\\/O24Z7lpQ1sGATUEGAAByj-6UdJQ854.png",\
+  "modify_date" : "2018-03-02 13:24:52",\
+  "customer" : 214,\
+  "is_del" : false,\
+  "title" : "
+\f1 \'b2\'bb\'d6\'aa\'b5\'c0\'bd\'d0
+\f0   
+\f1 \'ca\'b2\'c3\'b4\'c3\'fb\'ba\'c3\'bb\'d8\'b8\'b4\'c1\'cb\'c4\'fa\'b5\'c4\'d1\'d5\'d6\'b5
+\f0 ",\
+  "target_customer" : 204,\
+  "msg_type_id" : 187,\
+  "note_id" : 187,\
+  "note_reply_id" : 523,\
+  "target" : "15659820550",\
+  "is_read" : false,\
+  "msg_type" : 4\
+\}\
+\
+\
+\
+//
+\f1 \'cd\'a8\'d6\'aa
+\f0 \
+\{\
+  "body" : "\{'createDate':1519965580074,'customer':214,'customerName':'
+\f1 \'b2\'bb\'d6\'aa\'b5\'c0\'bd\'d0
+\f0   
+\f1 \'ca\'b2\'c3\'b4\'c3\'fb\'ba\'c3
+\f0 ','linkCustomer':204,'linkCustomerName':'
+\f1 \'d5\'c5\'bb\'aa
+\f0 ','msgType':3,'msgTypeId':187,'noteAuthor':204,'noteId':187\}",\
+  "id" : 147,\
+  "create_date" : "2018-03-02 12:39:40",\
+  "note_author" : 204,\
+  "customerImagePath" : "group1\\/M00\\/00\\/13\\/O24Z7lpQ1sGATUEGAAByj-6UdJQ854.png",\
+  "modify_date" : "2018-03-02 12:39:40",\
+  "customer" : 214,\
+  "is_del" : false,\
+  "title" : "
+\f1 \'b2\'bb\'d6\'aa\'b5\'c0\'bd\'d0
+\f0   
+\f1 \'ca\'b2\'c3\'b4\'c3\'fb\'ba\'c3\'cf\'b2\'bb\'b6\'c1\'cb\'c4\'fa\'b5\'c4\'d1\'d5\'d6\'b5
+\f0 ",\
+  "target_customer" : 204,\
+  "msg_type_id" : 187,\
+  "note_id" : 187,\
+  "target" : "15659820550",\
+  "is_read" : false,\
+  "msg_type" : 3\
+\}\
+\
+\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f3\b0\fs24 \cf17 \cb18 \expnd0\expndtw0\kerning0
+\CocoaLigature1 iOS
+\f1 \'bf\'aa\'b7\'a2\'bb\'b7\'be\'b3
+\f3  
+\f1 \'d6\'a4\'ca\'e9\'bb\'b9\'ce\'b4\'d1\'e9\'d6\'a4\'a3\'ac\'c7\'eb\'b5\'e3\'bb\'f7\'d1\'e9\'d6\'a4\'a3\'ac\'b3\'c9\'b9\'a6\'d6\'ae\'ba\'f3\'d4\'d9\'b1\'a3\'b4\'e6\'a3\'a1\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f0\b\fs22 \cf2 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 d092fb3322064e1a9e2c47906804c5d10a1733ed05918680c760a532493e82b1\
+\
+\
+\
+\
+2018-03-05 11:21:07.191183+0800 nihaoyishengyong[2252:680449] userInfoDict:\{\
+    "_ENV_" = DEV;\
+    aps =     \{\
+        alert =         \{\
+            body = "\\U5f20\\U534e\\U56de\\U590d\\U4e86\\U60a8\\U7684\\U989c\\U503c";\
+            title = "\\U60a6\\U5b8c\\U7f8e";\
+        \};\
+        badge = 5;\
+        category = "iOS10 Notification Category";\
+        "mutable-content" = 1;\
+        sound = default;\
+    \};\
+    i = 128134304;\
+    k2 = v2;\
+    m = "500524&&ALIYUN_24801176_500524&&ALIYUN_099757bac1544599bddfcfb2668c22b3&&00&&@apns";\
+\}\
+\
+\
+
+\f1 \'bf\'aa\'b7\'a2\'bb\'b7\'be\'b3
+\f0 \
+6
+\f1 \'ca\'d6\'bb\'fa\'b5\'c4
+\f2\b0 \cf5 \cb12 \CocoaLigature1 deviceId
+\f1 \'a3\'ba
+\f0\b \cf2 \cb1 \CocoaLigature0 836ddb654d064490843d0c6e738f1cee
+\f2\b0 \cf5 \cb12 \CocoaLigature1 \
+
+\f1\b \cf2 \cb1 \CocoaLigature0 \'bf\'aa\'b7\'a2\'bb\'b7\'be\'b3:
+\f2\b0 \cf5 \cb12 \CocoaLigature1 deviceToken
+\f1 \'a3\'ba
+\f0\b \cf2 \cb1 \CocoaLigature0 35c2f8a106a80905ef2a561d8f7e66c674ac65234f362a6471fe43f15b176938\
+\
+
+\f1 AppStore\'bb\'b7\'be\'b3:
+\f2\b0 \cf5 \cb12 \CocoaLigature1 deviceToken
+\f1 \'a3\'ba
+\f3\fs24 \cf19 \cb20 \expnd0\expndtw0\kerning0
+31e5733f27fbf11105cf2c5c9870cd0a5ac7edc187c6626b8adc549c1fe24de5\
+\
+\
+\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f1 \cf19 \'d4\'da\'d4\'c3\'cd\'ea\'c3\'c0
+\f3 app
+\f1 \'c4\'da\'b3\'e4\'d6\'b5\'c8\'cb\'c3\'f1\'b1\'d2\'b6\'d2\'bb\'bb\'c3\'c0\'b1\'d2\'a3\'ac
+\f3 1
+\f1 \'c8\'cb\'c3\'f1\'b1\'d2
+\f3 =1
+\f1 \'c3\'c0\'b1\'d2\'a1\'a3
+\f3 \
+\
+\
+
+\f1 \'d4\'da\'d4\'c3\'cd\'ea\'c3\'c0
+\f3 app
+\f1 \'c4\'da\'b3\'e4\'d6\'b5\'c8\'cb\'c3\'f1\'b1\'d2\'b6\'d2\'bb\'bb\'c3\'c0\'b1\'d2\'a3\'ac
+\f3 1
+\f1 \'c8\'cb\'c3\'f1\'b1\'d2
+\f3 =1
+\f1 \'c3\'c0\'b1\'d2\'a1\'a3\
+\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f4\fs30 \cf21 YueWanMeiYongIAPGoodId\
+\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f0\b\fs22 \cf2 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 2018-03-19 09:59:44.528208+0800 nihaoyishengyong[2872:610494] dict:\{\
+    code = 0;\
+    content =     \{\
+        balance = "12.07";\
+        createDate = "2018-03-14 14:13:01";\
+        id = 2;\
+        mbBalance = 1292;\
+        modifyDate = "2018-03-14 14:13:01";\
+    \};\
+    desc = success;\
+\}\
+\
+\
+2018-03-21 10:29:22.862671+0800 nihaoyishengyong[3727:823868] params:\{\
+    clientType = 2;\
+    faceValue = 100;\
+    noteId = 214;\
+    presentConfig = "";\
+    targetCustomer = 204;\
+\}\
+\
+2018-03-21 11:00:26.194109+0800 nihaoyishengyong[3727:823868] params:\{\
+    clientType = 2;\
+    faceValue = 10;\
+    noteId = 214;\
+    presentConfig = "";\
+    targetCustomer = 204;\
+\}\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+2018-03-22 13:33:50.542 nihaoyishengyong[501:106849] -------------
+\f1 \'c7\'eb\'c7\'f3\'b6\'d4\'d3\'a6\'b5\'c4\'b2\'fa\'c6\'b7\'d0\'c5\'cf\'a2
+\f0 ----------------\
+2018-03-22 13:33:50.861 nihaoyishengyong[501:106849] xiaoHui\
+2018-03-22 13:33:51.973 nihaoyishengyong[501:106849] --------------
+\f1 \'ca\'d5\'b5\'bd\'b2\'fa\'c6\'b7\'b7\'b4\'c0\'a1\'cf\'fb\'cf\'a2
+\f0 ---------------------\
+2018-03-22 13:33:51.974 nihaoyishengyong[501:106849] productID:(\
+)\
+2018-03-22 13:33:51.974 nihaoyishengyong[501:106849] 
+\f1 \'b2\'fa\'c6\'b7\'b8\'b6\'b7\'d1\'ca\'fd\'c1\'bf
+\f0 :1\
+2018-03-22 13:33:51.974 nihaoyishengyong[501:106849] <SKProduct: 0x1477470d0>\
+2018-03-22 13:33:51.975 nihaoyishengyong[501:106849] 18
+\f1 \'c3\'c0\'b1\'d2
+\f0 \
+2018-03-22 13:33:51.975 nihaoyishengyong[501:106849] 
+\f1 \'d4\'da\'d4\'c3\'cd\'ea\'c3\'c0
+\f0 app
+\f1 \'c4\'da\'b3\'e4\'d6\'b5\'c8\'cb\'c3\'f1\'b1\'d2\'b6\'d2\'bb\'bb\'c3\'c0\'b1\'d2\'a3\'ac
+\f0 1
+\f1 \'c8\'cb\'c3\'f1\'b1\'d2
+\f0 =1
+\f1 \'c3\'c0\'b1\'d2\'a1\'a3
+\f0 \
+2018-03-22 13:33:51.975 nihaoyishengyong[501:106849] 18\
+2018-03-22 13:33:51.976 nihaoyishengyong[501:106849] YueWanMeiYongIAPGoodId18\
+2018-03-22 13:33:51.979 nihaoyishengyong[501:106849] 
+\f1 \'b7\'a2\'cb\'cd\'b9\'ba\'c2\'f2\'c7\'eb\'c7\'f3
+\f0 \
+2018-03-22 13:33:51.979 nihaoyishengyong[501:106849] 
+\f1 \'c9\'cc\'c6\'b7\'cc\'ed\'bc\'d3\'bd\'f8\'c1\'d0\'b1\'ed
+\f0 \
+2018-03-22 13:33:51.983 nihaoyishengyong[501:106849] ------------
+\f1 \'b7\'b4\'c0\'a1\'d0\'c5\'cf\'a2\'bd\'e1\'ca\'f8
+\f0 -----------------\
+2018-03-22 13:33:58.017 nihaoyishengyong[501:106849] 
+\f1 \'bd\'bb\'d2\'d7\'cd\'ea\'b3\'c9
+\f0 \
+2018-03-22 13:33:58.019 nihaoyishengyong[501:106849] params:\{\
+    faceValue = 18;\
+    isDev = 1;\
+    mbConfigId = "";\
+    noteId = "";\
+    receipt = "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";\
+\}\
+2018-03-22 13:34:00.408 nihaoyishengyong[501:106849] dict111:\{\
+    code = 0;\
+    content = SUCESS;\
+    desc = success;\
+\}\
+2018-03-22 13:34:00.410 nihaoyishengyong[501:106849] CUICatalog: Invalid asset name supplied: (null)\
+2018-03-22 13:34:00.410 nihaoyishengyong[501:106849] CUICatalog: Invalid asset name supplied: (null)\
+2018-03-22 13:34:00.816 nihaoyishengyong[501:106849] dict:\{\
+    code = 0;\
+    content =     \{\
+        balance = 0;\
+        createDate = "2018-03-22 11:20:45";\
+        id = 13;\
+        mbBalance = 116;\
+        modifyDate = "2018-03-22 11:20:45";\
+    \};\
+    desc = success;\
+\}\
+\
+\
+\
+\
+\
+\
+
+\f1 \'d4\'da\'d4\'c3\'cd\'ea\'c3\'c0
+\f0 app
+\f1 \'c4\'da\'b3\'e4\'d6\'b5\'c8\'cb\'c3\'f1\'b1\'d2\'b6\'d2\'bb\'bb\'c3\'c0\'b1\'d2\'a3\'ac
+\f0 1
+\f1 \'c8\'cb\'c3\'f1\'b1\'d2
+\f0 =1
+\f1 \'c3\'c0\'b1\'d2\'a1\'a3
+\f0 \
+\
+
+\f1 \'c9\'b3\'cf\'e4\'b2\'e2\'ca\'d4\'d4\'b1\'d5\'cb\'ba\'c5
+\f0 \
+
+\f1 \'d5\'cb\'ba\'c5\'a3\'ba
+\f0 xuyc@easyhoms.com\
+
+\f1 \'c3\'dc\'c2\'eb\'a3\'ba
+\f0 Easy2016}
